@@ -10,17 +10,15 @@
 int main(void)
 {
 	int i;
-	char a[] = "Fizz";
-	char b[] = "Buzz";
 
 	for (i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
-			printf("%s%s", a, b);
+			printf("FizzBuzz");
 		else if (i % 3 == 0)
-			printf("%s", a);
+			printf("Fizz");
 		else if (i % 5 == 0)
-			printf("%s", b);
+			printf("Buzz");
 		else
 			printf("%d", i);
 
