@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -16,7 +17,7 @@ int main(void)
 	{
 		if (num % divider == 0)
 		{
-			printf("%d\n", divider);
+			printf("%ld\n", divider);
 			break;
 		}
 	}
