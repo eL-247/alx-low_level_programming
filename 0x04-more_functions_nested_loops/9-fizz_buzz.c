@@ -2,7 +2,7 @@
 
 /**
  * main - prints 0 to 100.
- * Description: if x%3 = 0 print fizz x%5 = 0 print buzz. 
+ * Description: if x%3 = 0 print fizz x%5 = 0 print buzz.
  * multiple of both 3 and 5 shpuld print FizzBuzz.
  * Return: always 0.
  */
@@ -22,7 +22,7 @@ int main(void)
 		else
 			printf("%d", i);
 
-		if ( i != 100)
+		if (i != 100)
 			printf(" ");
 	}
 	printf("\n");
