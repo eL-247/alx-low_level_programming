@@ -1,5 +1,5 @@
-#ifndef SIZE
-#define SIZE
+#ifndef SIZE_PRINT
+#define SIZE_PRINT
 
 #define SIZE 1024
 
